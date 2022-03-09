@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fruit List</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <br>
+    <div id="container"></div>
+<div>
+    <label for="Choose your fruits"></label>
+</div>
+    <br>
+
+<div class="fruity">
+    <label for="item">Add new fruit</label>
+    <input type="text" ng-model="newFruit">
+    <button ng-click="addFruit()">Add</button>
+    
+    <br>
+    <button onclick= myFunction1()>Sort in Ascending</button>
+    <button onclick= myFunction2()>Sort in descending</button>
+    <p id="values"></p>
+    <br> 
+
+</div>
+</body>
+</html>
