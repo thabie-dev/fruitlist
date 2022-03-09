@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Fruit List</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="index.js"></script>
 </head>
 <body>
     <br>
@@ -17,16 +16,30 @@
     <br>
 
 <div class="fruity">
-    <label for="item">Add new fruit</label>
-    <input type="text" ng-model="newFruit">
-    <button ng-click="addFruit()">Add</button>
+    <!-- <label for="item">Add new fruit</label>
+    <input type="text" ng-model="newFruit"> -->
+
+    <label>Add new fruit</label>
+    <input class="" type="text" placeholder="enter fruit">
+    <!-- <button ng-click="addFruit()">Add</button> -->
     
     <br>
-    <button onclick= myFunction1()>Sort in Ascending</button>
+    <button class="show" type="button" name="show">Show</button>
+    <button class="asc" type="button" name="asc">Sort in Ascending</button>
+    <button class="dec" type="button" name="dec">Sort in descending</button>
+<!--     <button onclick= myFunction1()>Sort in Ascending</button>
     <button onclick= myFunction2()>Sort in descending</button>
-    <p id="values"></p>
+    <p id="values"></p> -->
     <br> 
 
+    <div>
+        <label class="outPutLbl" style="font-size: 2rem; color:rgb(5, 10, 51);">
+          <span >....</span>       
+        </label>
+      </div>
+
 </div>
+
 </body>
+<script src="index.js"></script>
 </html>
