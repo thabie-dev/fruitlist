@@ -5,3 +5,11 @@ body{
 .fruity{
     text-align: center;
 }
+.button {
+    
+    line-height: 60px;
+    font-weight: bold;
+    padding: 0 40px;
+    color: rgb(248, 0, 0);
+    border: none;
+  }
